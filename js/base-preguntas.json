@@ -1,0 +1,103 @@
+[
+    {
+        "pregunta": "¿Qué prenda le regaló Harry a Dobby para liberarlo?",
+        "respuesta": "Un calcetín",
+        "incorrecta1": "Un guante",
+        "incorrecta2": "Un gorro",
+        "incorrecta3": "Una bufanda",
+        "imagen": "img/dobby.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿En cuál libro muere Sirius Black?",
+        "respuesta": "La Orden del Fénix",
+        "incorrecta1": "El Cáliz de Fuego",
+        "incorrecta2": "Las Reliquias de la Muerte",
+        "incorrecta3": "El Misterio del Principe",
+        "imagen": "img/sirius.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿Qué ve Harry en el espejo de Oesed?",
+        "respuesta": "A sus padres vivos a su lado",
+        "incorrecta1": "Su caja fuerte de Gringots llena de galeones",
+        "incorrecta2": "A él siendo un gran jugador de Quidditch",
+        "incorrecta3": "A él siendo un gran mago",
+        "imagen": "img/espejo.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿Cuántos años tenía Harry cuándo descubrió que era un mago?",
+        "respuesta": "11",
+        "incorrecta1": "12",
+        "incorrecta2": "8",
+        "incorrecta3": "10",
+        "imagen": "img/torta.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿En qué año fue la batalla de Hogwarts?",
+        "respuesta": "1998",
+        "incorrecta1": "1992",
+        "incorrecta2": "1976",
+        "incorrecta3": "1983",
+        "imagen": "img/hogwarts.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿Cuál fue el primer horrocrux de Voldemort?",
+        "respuesta": "El anillo de Sorvolo Gaunt",
+        "incorrecta1": "El diario de Tom Ryddle",
+        "incorrecta2": "La copa de Helga Hufflepuff",
+        "incorrecta3": "La diadema de Rowena Ravenclaw",
+        "imagen": "img/voldemort.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿De que color es el gato de Hermione?",
+        "respuesta": "Jengibre",
+        "incorrecta1": "Gris",
+        "incorrecta2": "Negro Azabache",
+        "incorrecta3": "Blanco",
+        "imagen": "img/hermione.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿Qué dragón le toco a Harry en la primera prueba del Torneo de los Tres Magos?",
+        "respuesta": "Colacuerno Húngaro",
+        "incorrecta1": "Galés Verde Común",
+        "incorrecta2": "Bola de Fuego Chino",
+        "incorrecta3": "Hocicorto Sueco",
+        "imagen": "img/caliz.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿A cuál casa de Hogwarts perteneció Merlín?",
+        "respuesta": "Slytherin",
+        "incorrecta1": "Gryffindor",
+        "incorrecta2": "Hufflepuff",
+        "incorrecta3": "Ravenclaw",
+        "imagen": "img/castillo.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿De qué está hecha la varita de Tom Riddle?",
+        "respuesta": "Tejo",
+        "incorrecta1": "Bambú",
+        "incorrecta2": "Saúco",
+        "incorrecta3": "Maple",
+        "imagen": "img/varitas.webp",
+        "object-fit": "cover"
+    },
+    {
+        "pregunta": "¿Cuándo es el cumpleaños de Harry Potter?",
+        "respuesta": "El 31 de julio de 1980",
+        "incorrecta1": "El 30 de junio de 1980",
+        "incorrecta2": "El 30 de julio de 1981",
+        "incorrecta3": "El 29 de junio de 1981",
+        "imagen": "img/harry.webp",
+        "object-fit": "cover"
+    }
+
+    
+]

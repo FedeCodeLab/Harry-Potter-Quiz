@@ -1,0 +1,260 @@
+/* ?--------------------------------------------------General */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    background-image: url('/img/nature.webp');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+#encabezado, #btn-container {
+    transition: opacity 0.5s ease; /* Transición de 0.5 segundos para cambiar la opacidad */
+  }
+
+/* ?--------------------------------------------------Grid */
+
+.grid {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat(9, 1fr) / repeat(5, 1fr);
+    grid-template-areas: "header header header header header"   
+                        "puntaje puntaje puntaje puntaje puntaje"
+                        "encabezado encabezado encabezado botones botones"
+                        "encabezado encabezado encabezado botones botones"
+                        "encabezado encabezado encabezado botones botones"
+                        "encabezado encabezado encabezado botones botones"
+                        "encabezado encabezado encabezado botones botones"
+                        "encabezado encabezado encabezado botones botones"
+                        "encabezado encabezado encabezado botones botones";
+}
+
+/* ?--------------------------------------------------Header */
+
+.header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.header h2{
+    font-family: 'Harry Potter', sans-serif;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding-top: 10px;
+}
+
+.header i{
+    cursor: pointer;
+}
+
+/* ?--------------------------------------------------Puntaje */
+
+.puntaje{
+    grid-area: puntaje;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: #fff;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 71, 42, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ?--------------------------------------------------Encabezado */
+
+.encabezado{
+    grid-area: encabezado;
+    color: #fff;
+    background-color: rgba(26, 71, 42, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.encabezado .pregunta{
+    font-size: 1.4rem;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.encabezado .imagen{
+    width: 100%;
+    max-height: 400px;
+    height: 400px;
+    min-height: 250;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* ?--------------------------------------------------Botones */
+
+.botones{
+    grid-area: botones;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botones .btn{
+    border: 5px solid transparent;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(26, 71, 42, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.botones .btn:hover{
+    border: 5px solid #D2AA6B;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+footer{
+    background-color: #131113;
+    margin-top: 3rem;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+footer .flex{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #6C757D;
+    border-top: 1px solid #6C757D;
+    padding-top: 20px;
+}
+
+footer .flex .copyright a{
+    color: #6C757D;
+    text-decoration: none;
+}
+
+footer .flex .copyright a:hover{
+    color: #fff;
+}
+
+footer .flex .redes{
+    display: flex;
+    gap: 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+footer .flex .redes a{
+    color: #6C757D;
+    text-decoration: none;
+}
+
+footer .flex .redes .red:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    color: #fff;
+}
+
+/* ?--------------------------------------------------MediaQuerys */
+
+@media screen and (max-width: 768px){
+
+/* ?--------------------------------------------------Grid */
+
+    .grid{
+        grid-gap: 20px;
+        grid-template: 4fr / 5fr;
+        grid-template-areas: "header"
+                             "puntaje"
+                             "encabezado"
+                             "botones";
+    }
+
+/* ?--------------------------------------------------Imagen */
+
+    .encabezado .imagen{
+        max-height: 300px;
+        height: 300px;
+        min-height: 250;
+    }
+
+/* ?--------------------------------------------------Footer */
+
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 0px;
+    }
+
+    footer .flex .copyright{
+        padding-top: 20px;
+    }
+
+
+}
+
+/* ?-------------------------------------------- Animación */
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .fade-out {
+    animation: fadeOut 0.5s ease;
+  }
